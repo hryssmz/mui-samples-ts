@@ -83,3 +83,13 @@ npm install -D babel-jest @babel/core @babel/preset-env @babel/preset-react @bab
 ```bash
 npm install -D @testing-library/react@12 @testing-library/jest-dom @testing-library/user-event eslint-plugin-jest-dom
 ```
+
+#### 1.2.9. Storybook
+
+---
+
+```bash
+npx sb init
+rm -rf node_modules/ package-lock.json
+npm install
+```

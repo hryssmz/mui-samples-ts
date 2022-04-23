@@ -15,6 +15,7 @@ module.exports = {
     "plugin:jest-dom/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
+    "plugin:storybook/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
