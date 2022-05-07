@@ -93,3 +93,31 @@ npx sb init
 rm -rf node_modules/ package-lock.json
 npm install
 ```
+
+### 1.3. Dependencies
+
+---
+
+#### 1.3.1. Material UI
+
+---
+
+```bash
+npm install @mui/material @emotion/react @emotion/styled @mui/system @mui/icons-material @mui/lab @fontsource/roboto
+```
+
+#### 1.3.2. recharts
+
+---
+
+```bash
+npm install recharts
+```
+
+#### 1.3.3. markdown-to-jsx
+
+---
+
+```bash
+npm install markdown-to-jsx
+```
