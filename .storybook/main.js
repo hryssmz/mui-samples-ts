@@ -7,18 +7,18 @@ module.exports = {
     "../stories/components/checkout/*.stories.tsx",
     "../stories/components/dashboard/*.stories.tsx",
     "../stories/components/*.stories.tsx",
-    // // src/data-display
-    // "../stories/data-display/typography/*.stories.tsx",
-    // // src/feedback
-    // "../stories/feedback/alert/*.stories.tsx",
-    // "../stories/feedback/dialog/*.stories.tsx",
-    // // src/inputs
-    // "../stories/inputs/button/*.stories.tsx",
-    // "../stories/inputs/text-field/*.stories.tsx",
-    // // src/layout
-    // "../stories/layout/box/*.stories.tsx",
-    // "../stories/layout/container/*.stories.tsx",
-    // "../stories/layout/grid/*.stories.tsx",
+    // src/data-display
+    "../stories/data-display/typography/*.stories.tsx",
+    // src/feedback
+    "../stories/feedback/alert/*.stories.tsx",
+    "../stories/feedback/dialog/*.stories.tsx",
+    // src/inputs
+    "../stories/inputs/button/*.stories.tsx",
+    "../stories/inputs/text-field/*.stories.tsx",
+    // src/layout
+    "../stories/layout/box/*.stories.tsx",
+    "../stories/layout/container/*.stories.tsx",
+    "../stories/layout/grid/*.stories.tsx",
     // src/pages
     "../stories/pages/*.stories.tsx",
     // // src/system
