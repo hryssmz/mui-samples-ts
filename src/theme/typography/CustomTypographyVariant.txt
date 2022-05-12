@@ -1,0 +1,46 @@
+// theme/typography/CustomTypographyVariant.tsx
+import { CSSProperties } from "react";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
+
+const theme = createTheme({
+  typography: {
+    poster: {
+      color: "red",
+    },
+    // Disable h2 variant
+    h2: undefined,
+  },
+});
+
+declare module "@mui/material/styles" {
+  interface TypographyVariants {
+    poster: CSSProperties;
+  }
+
+  // allow configuration using `createTheme`
+  interface TypographyVariantsOptions {
+    poster?: CSSProperties;
+  }
+}
+
+// Update the Typography's variant prop options
+declare module "@mui/material/Typography" {
+  interface TypographyPropsVariantOverrides {
+    poster: true;
+    h2: false;
+  }
+}
+
+export default function CustomTypographyVariant() {
+  return (
+    <ThemeProvider theme={theme}>
+      <Typography variant="poster">poster</Typography>
+
+      {/* This variant is no longer supported */}
+      {/* <Typography variant="h2">h2</Typography> */}
+      {/*             ^^^^^^^ */}
+      {/* E: No overload matches this call. */}
+    </ThemeProvider>
+  );
+}

@@ -103,7 +103,7 @@ npm install
 ---
 
 ```bash
-npm install @mui/material @emotion/react @emotion/styled @mui/system @mui/icons-material @mui/lab @fontsource/roboto
+npm install @mui/material @emotion/react @emotion/styled @mui/system @mui/utils @mui/icons-material @mui/lab @fontsource/roboto
 ```
 
 #### 1.3.2. recharts
